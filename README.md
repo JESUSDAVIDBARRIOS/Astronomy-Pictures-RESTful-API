@@ -8,6 +8,7 @@ Requirements:
 - Python 3.6
 - Pip 
 
+Steps to run the app:
 1. Open the root directory of the project in a terminal
 2. Create a virtual environment: `python -m venv venv`
 3. Activate the virtual environment: `venv/Scripts/activate`
