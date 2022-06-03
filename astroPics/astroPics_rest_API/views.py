@@ -21,6 +21,7 @@ class AstronomyPictureView(FiltersMixin, viewsets.ModelViewSet):
     pagination_class = PaginationConfig
     
     filter_mappings = {
+        'id': 'id',
         'title': 'title__icontains',
         'explanation': 'explanation__icontains'
     }
